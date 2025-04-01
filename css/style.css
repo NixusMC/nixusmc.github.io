@@ -147,6 +147,40 @@ nav ul li a:hover {
     background: #e6b800;
 }
 
+/* Seção de Votação */
+.vote-links {
+    background: #15002e;
+    padding: 50px 20px;
+}
+
+.vote-links h2 {
+    font-size: 30px;
+    color: #ffcc00;
+}
+
+.vote-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.vote-btn {
+    display: inline-block;
+    padding: 15px 25px;
+    background: #ffcc00;
+    color: #1b0029;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.vote-btn:hover {
+    background: #e6b800;
+}
+
 /* Rodapé */
 footer {
     padding: 20px;
